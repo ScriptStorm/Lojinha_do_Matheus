@@ -32,14 +32,22 @@ main {
 
 
 h2 {
-    color: #FF1493; /* Cor rosa vibrante */
+    color: #FF1493; 
     font-size: 2em;
     font-weight: bold;
-    text-align: center;
-    animation: brilho 1.5s infinite alternate; /* Animação para brilho */
+    text-align: center; 
+    animation: brilho 1.5s infinite alternate; 
 }
 
-/* Animação para o brilho */
+
+p {
+    color: #FF1493; 
+    font-size: 1.2em;
+    font-weight: bold;
+    animation: brilho 1.5s infinite alternate; 
+}
+
+
 @keyframes brilho {
     0% {
         text-shadow: 0 0 5px #FF1493, 0 0 10px #FF1493, 0 0 15px #FF1493;
@@ -48,6 +56,7 @@ h2 {
         text-shadow: 0 0 20px #FF1493, 0 0 30px #FF1493, 0 0 40px #FF1493, 0 0 50px #FF1493;
     }
 }
+
 ul {
     list-style: none;
     padding: 0;
@@ -93,25 +102,4 @@ footer {
     color: #ff69b4;
 }
 
-.item p {
-    color: #FF1493;
-    font-weight: bold;
-    font-size: 1.2em;
-}
 
-.edit p {
-    color: #FF1493; 
-    font-size: 1.5em;
-    font-weight: bold;
-    animation: brilho 1.5s infinite alternate;
-}
-
-
-@keyframes brilho {
-    0% {
-        text-shadow: 0 0 5px #FF1493, 0 0 10px #FF1493, 0 0 15px #FF1493;
-    }
-    100% {
-        text-shadow: 0 0 20px #FF1493, 0 0 30px #FF1493, 0 0 40px #FF1493, 0 0 50px #FF1493;
-    }
-}
