@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -17,29 +16,14 @@ header {
 
 header h1 {
     font-size: 2.5em;
-    color: #FF1493;
+    color: #ff1493;
     text-align: center;
-    animation: brilhoEspecial 2s infinite alternate;
-    text-shadow: 0 0 10px #FF1493, 0 0 20px #FF1493, 0 0 30px #FF1493 !important;
 }
-
-@keyframes brilhoEspecial {
-    0% {
-        text-shadow: 0 0 10px #FF1493, 0 0 20px #FF1493, 0 0 30px #FF1493;
-    }
-    50% {
-        text-shadow: 0 0 40px #FF1493, 0 0 60px #FF1493, 0 0 80px #FF1493;
-    }
-    100% {
-        text-shadow: 0 0 100px #FF1493, 0 0 150px #FF1493, 0 0 200px #FF1493;
-    }
-}
-
-
 
 header p {
     font-size: 1.2em;
     color: #ff69b4;
+    text-align: center;
 }
 
 
@@ -49,31 +33,9 @@ main {
 
 
 h2 {
-    color: #FF1493;
     font-size: 2em;
-    font-weight: bold;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    animation: brilho 1.5s infinite alternate; 
-}
-
-
-p {
-    color: #FF1493; 
-    font-size: 2.5em;
-    font-weight: bold;
-    animation: brilho 1.5s infinite alternate; 
-}
-
-
-@keyframes brilho {
-    0% {
-        text-shadow: 0 0 5px #FF1493, 0 0 10px #FF1493, 0 0 15px #FF1493;
-    }
-    100% {
-        text-shadow: 0 0 20px #FF1493, 0 0 30px #FF1493, 0 0 40px #FF1493, 0 0 50px #FF1493;
-    }
+    color: #ff69b4;
+    text-align: center;
 }
 
 ul {
@@ -121,6 +83,12 @@ footer {
     color: #ff69b4;
 }
 
+.item p {
+    color: #FF1493;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
-
+section h2, p { 
+    text-align: center; 
+    background: #pink;
