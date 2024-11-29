@@ -32,11 +32,11 @@ main {
 
 
 h2 {
-    color: #FF1493; 
+    color: #FF1493; /* Cor rosa vibrante */
     font-size: 2em;
     font-weight: bold;
     text-align: center;
-    animation: brilho 1.5s infinite alternate;
+    animation: brilho 1.5s infinite alternate; /* Animação para brilho */
 }
 
 /* Animação para o brilho */
@@ -48,7 +48,6 @@ h2 {
         text-shadow: 0 0 20px #FF1493, 0 0 30px #FF1493, 0 0 40px #FF1493, 0 0 50px #FF1493;
     }
 }
-
 ul {
     list-style: none;
     padding: 0;
