@@ -86,3 +86,10 @@ footer {
     font-weight: bold;
     font-size: 1.2em;
 }
+
+p {
+    color: #FF1493; 
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 0 0 5px #FF1493, 0 0 10px #FF1493, 0 0 15px #FF1493;
+}
