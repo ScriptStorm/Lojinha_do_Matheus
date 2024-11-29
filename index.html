@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Matheus Orgulho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>✨ Loja Matheus Orgulho ✨</h1>
+        <p>A loja perfeita para arrasar na Parada Gay! 🌈</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Catálogo</h2>
+            <p>Confira nossos itens incríveis e brilhe muito!</p>
+            <ul id="catalogo">
+                <li class="item">
+                    <p>Cropped Ousadia & Alegria</p>
+                    <img src="cropped.jpg" alt="Cropped rosinha">
+                    <p>Preço: R$ 79,90</p>
+                    <button onclick="adicionarAoCarrinho('Cropped rosinha')">Adicionar ao Carrinho</button>
+                </li>
+                <li class="item">
+                    <p>Blusinha Fui No Arco-Íris, Caí na Drag Race</p>
+                    <img src="blusinha_arcoiris.jpg" alt="Blusinha com estampa arco-íris">
+                    <p>Preço: R$ 79,90</p>
+                    <button onclick="adicionarAoCarrinho('Blusinha com estampa arco-íris')">Adicionar ao Carrinho</button>
+                </li>
+                <li class="item">
+                    <p>Shorts Arco-íris Do Poder</p>
+                    <img src="shorts_arcoiris.jpg" alt="shorts_arcoiris">
+                    <p>Preço: R$ 99,90</p>
+                    <button onclick="adicionarAoCarrinho('Shorts com lantejoulas arco-íris')">Adicionar ao Carrinho</button>
+                </li>
+                <li class="item">
+                    <p>Tiara de Unicórnio Com Glitter</p>
+                    <img src="tiara_unicornio.jpg" alt="Tiara de unicórnio">
+                    <p>Preço: R$ 109,90</p>
+                    <button onclick="adicionarAoCarrinho('Tiara de unicórnio com glitter')">Adicionar ao Carrinho</button>
+                </li>
+            </li>
+            <li class="item">
+                <p>Bolsa Purpurina Cósmica</p>
+                <img src="bolsa_purpurina.jpg" alt="Bolsa Purpurina Cósmica">
+                <p>Preço: R$ 139,90</p>
+                <button onclick="adicionarAoCarrinho('Bolsa Purpurina Cósmica')">Adicionar ao Carrinho</button>
+            </li>
+            <li class="item">
+                <p>Chapéu Puf de Diva</p>
+                <img src="chapeu_diva.jpg" alt="Chapéu Diva Cósmica">
+                <p>Preço: R$ 99,90</p>
+                <button onclick="adicionarAoCarrinho('Chapéu Diva Cósmica')">Adicionar ao Carrinho</button>
+            </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Carrinho de Compras</h2>
+            <p>Itens adicionados:</p>
+            <ul id="carrinho"></ul>
+            <button id="finalizarCompra" onclick="finalizarCompra()" disabled>Finalizar Compra</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>🌟 Loja Matheus Orgulho - Celebrando a diversidade com estilo! 🌈</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
