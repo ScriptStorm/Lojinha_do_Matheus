@@ -22,14 +22,6 @@ header h1 {
     animation: brilhoEspecial 2s infinite alternate;
 }
 
-@keyframes brilhoEspecial {
-    0% {
-        text-shadow: 0 0 10px #ff1493, 0 0 20px #ff1493, 0 0 30px #ff1493, 0 0 40px #ff0066, 0 0 60px #ff0066, 0 0 70px #ff0066, 0 0 80px #ff0066;
-    }
-    100% {
-        text-shadow: 0 0 15px #ff1493, 0 0 25px #ff1493, 0 0 35px #ff1493, 0 0 50px #ff0066, 0 0 80px #ff0066, 0 0 90px #ff0066, 0 0 100px #ff0066;
-    }
-}
 
 
 header p {
