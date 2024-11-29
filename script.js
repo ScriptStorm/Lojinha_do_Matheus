@@ -25,7 +25,7 @@ function atualizarCarrinho() {
 }
 
 function finalizarCompra() {
-    alert('Compra finalizada com sucesso! Obrigado por comprar na Loja Matheus Orgulho! 🌈');
+    alert('Compra finalizada com sucesso! Obrigado por comprar na Loja Matheus Orgulho! Nos vemos na baladinha e quero ver se você rebola tão quão é estilosa 🤤👅🌈');
     carrinho = []; 
     atualizarCarrinho(); 
 }
