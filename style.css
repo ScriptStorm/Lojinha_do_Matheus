@@ -20,7 +20,7 @@ h1 {
     color: #ff1493;
     text-align: center;
     animation: brilhoEspecial 2s infinite alternate;
-}
+
 
 @keyframes brilho {
     0% {
@@ -32,8 +32,8 @@ h1 {
     100% {
         text-shadow: 0 0 50px #FF1493, 0 0 70px #FF1493, 0 0 100px #FF1493;
     }
+ }
 }
-
 
 
 header p {
