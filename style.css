@@ -16,29 +16,28 @@ header {
 }
 
 header h1 {
-    font-size: 3em; 
+    font-size: 3.5em; 
     color: #FF1493;
     text-align: center;
-    animation: brilhoDinamico 3s infinite alternate;
-    text-shadow: 0 0 20px #FF1493, 0 0 40px #FF1493, 0 0 60px #FF1493, 0 0 80px #ff00ff, 0 0 100px #ff00ff, 0 0 150px #ff00ff;
+    animation: brilhoEspecial 3s infinite alternate;
+    text-shadow: 0 0 20px #FF1493, 0 0 40px #FF1493, 0 0 60px #FF1493, 0 0 80px #FF00FF, 0 0 100px #FF00FF, 0 0 150px #FF00FF;
 }
 
-
-@keyframes brilhoDinamico {
+@keyframes brilhoEspecial {
     0% {
-        text-shadow: 0 0 20px #FF1493, 0 0 40px #FF1493, 0 0 60px #FF1493, 0 0 80px #ff00ff, 0 0 100px #ff00ff, 0 0 150px #ff00ff;
+        text-shadow: 0 0 20px #FF1493, 0 0 40px #FF1493, 0 0 60px #FF1493, 0 0 80px #FF00FF, 0 0 100px #FF00FF, 0 0 150px #FF00FF;
     }
     25% {
-        text-shadow: 0 0 30px #FF1493, 0 0 60px #FF1493, 0 0 90px #FF1493, 0 0 120px #ff00ff, 0 0 150px #ff00ff, 0 0 200px #ff00ff;
+        text-shadow: 0 0 30px #FF1493, 0 0 60px #FF1493, 0 0 90px #FF1493, 0 0 120px #FF00FF, 0 0 150px #FF00FF, 0 0 200px #FF00FF;
     }
     50% {
-        text-shadow: 0 0 50px #FF1493, 0 0 100px #FF1493, 0 0 150px #FF1493, 0 0 200px #ff00ff, 0 0 250px #ff00ff, 0 0 300px #ff00ff;
+        text-shadow: 0 0 50px #FF1493, 0 0 100px #FF1493, 0 0 150px #FF1493, 0 0 200px #FF00FF, 0 0 250px #FF00FF, 0 0 300px #FF00FF;
     }
     75% {
-        text-shadow: 0 0 60px #FF1493, 0 0 120px #FF1493, 0 0 180px #FF1493, 0 0 240px #ff00ff, 0 0 300px #ff00ff, 0 0 350px #ff00ff;
+        text-shadow: 0 0 60px #FF1493, 0 0 120px #FF1493, 0 0 180px #FF1493, 0 0 240px #FF00FF, 0 0 300px #FF00FF, 0 0 350px #FF00FF;
     }
     100% {
-        text-shadow: 0 0 80px #FF1493, 0 0 160px #FF1493, 0 0 240px #FF1493, 0 0 320px #ff00ff, 0 0 400px #ff00ff, 0 0 450px #ff00ff;
+        text-shadow: 0 0 80px #FF1493, 0 0 160px #FF1493, 0 0 240px #FF1493, 0 0 320px #FF00FF, 0 0 400px #FF00FF, 0 0 450px #FF00FF;
     }
 }
 
