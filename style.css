@@ -32,10 +32,12 @@ main {
 
 
 h2 {
-    color: #FF1493; 
+    color: #FF1493;
     font-size: 2em;
     font-weight: bold;
-    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     animation: brilho 1.5s infinite alternate; 
 }
 
