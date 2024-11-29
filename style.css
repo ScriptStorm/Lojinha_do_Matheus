@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,15 +7,22 @@ body {
     color: #333;
 }
 
+
+header {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-bottom: 3px solid #ff92df;
+}
+
 header h1 {
     font-size: 2.5em;
     color: #ff1493;
-    text-align: center;
 }
+
 header p {
     font-size: 1.2em;
     color: #ff69b4;
-    text-align: center;
 }
 
 
@@ -26,7 +34,6 @@ main {
 h2 {
     font-size: 2em;
     color: #ff69b4;
-    text-align: center;
 }
 
 ul {
@@ -79,7 +86,3 @@ footer {
     font-weight: bold;
     font-size: 1.2em;
 }
-
-section h2, p { 
-    text-align: center; 
-    background: #pink;
