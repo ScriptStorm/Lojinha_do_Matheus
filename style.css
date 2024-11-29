@@ -6,20 +6,11 @@ body {
     color: #333;
 }
 
-
-header {
-    text-align: center;
-    background: #fff;
-    padding: 20px;
-    border-bottom: 3px solid #ff92df;
-}
-
 header h1 {
     font-size: 2.5em;
     color: #ff1493;
     text-align: center;
 }
-
 header p {
     font-size: 1.2em;
     color: #ff69b4;
